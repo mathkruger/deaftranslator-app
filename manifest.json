@@ -1,0 +1,20 @@
+{
+  "name": "Deaftranslator",
+  "description": "Tradutor de Português para LIBRAS",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "version": "0.1",
+  "offline_enabled": false,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions" : [
+    "alwaysOnTopWindows"
+  ],
+  "icons": {
+    "16": "assets/icon-128x128.png",
+    "128": "assets/icon-128x128.png"
+  }
+}
