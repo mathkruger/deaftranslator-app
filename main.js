@@ -11,13 +11,14 @@
  * @see http://developer.chrome.com/apps/app.window.html
  */
 chrome.app.runtime.onLaunched.addListener(function() {
-	console.log('Rodou!');
+
   chrome.app.window.create('tradutor.html', {
     id: "deafWindow",
+    frame: "none",
     alwaysOnTop: true,
     innerBounds: {
-      width: 300,
-      height: 300,
+      width: 400,
+      height: 380,
       minWidth: 300,
       minHeight: 300
     }
