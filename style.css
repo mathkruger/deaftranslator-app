@@ -1,0 +1,15 @@
+.tray-button {
+	float: right;
+	color: white;
+	background-color: #58779D;
+	transition: 0.2s ease;
+	border: none;
+  	-webkit-app-region: no-drag;
+  	margin-left: 3px;
+  	outline: none;
+  	border-radius: 50%;
+}
+
+.tray-button:hover {
+	background-color: black;
+}
