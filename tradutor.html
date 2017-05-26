@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>DeafTranslator</title>
-	</head>
-	<body>
-		<h1>Olá mundo!</h1>
+<html>
+    <head>
+        <title>Tradutor DeafTranslator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<script type="text/javascript" src="jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="controller.js"></script>
-	</body>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="assets/back.png">
+        <div class="well well-sm" style="background-color: white; border-radius: 0px; -webkit-app-region: drag;">
+            DeafTranslator
+
+            <button id="close" class="tray-button">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+        </div> 
+        <div class="container">
+            <div class="input-group">
+                <input type="text" id="texto" placeholder="Texto para tradução" class="form-control">
+                
+                <div class="input-group-btn">
+                    <button id="traduzir" type="button" class="btn btn-success">
+                        Traduzir
+                    </button>
+                </div>
+            </div>
+            <br>
+            <center>
+                <div class="input-group">
+                    <img id="result">
+                </div>
+            </center>
+            <br>
+        </div>
+
+
+        <script src="jquery/jquery.min.js"></script>
+        <script src="controller.js"></script>
+    </body>
 </html>
