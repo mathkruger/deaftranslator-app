@@ -1,20 +1,12 @@
-<a target="_blank" href="https://chrome.google.com/webstore/detail/pelimflkpjiicnajdjcmekpioacmahkh">![Try it now in CWS](https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton.png "Click here to install this sample from the Chrome Web Store")</a>
 
+# DeafTranslator APP
 
-# Calculator
-
-A sample application that provides a simple calculator. Supports basic operations
-such as addition, multiplication, subtraction and division.
-
-This sample also incorporates an MVC-style structure and requires jQuery for
-DOM manipulation.
+Um aplicativo de tradução de Português para LIBRAS. 
+O Texto deve ser copiado para a caixa de texto na janela e a tradução começará.
 
 ## APIs
 
 * [Runtime](http://developer.chrome.com/apps/app.runtime.html)
 * [Window](http://developer.chrome.com/apps/app.window.html)
-
-     
-## Screenshot
-![screenshot](/samples/calculator/assets/screenshot_1280_800.png)
+* [DeafTranslator](http://facebook.com.br/mathkruger)
 
